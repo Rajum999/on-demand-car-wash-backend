@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      uri:  mongodb+srv://raju:raju@carwash.ayvtn.mongodb.net/orders?retryWrites=true&w=majority
+      
+  application:
+    name: Order-Service
