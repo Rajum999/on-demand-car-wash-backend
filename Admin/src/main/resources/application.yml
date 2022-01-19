@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://raju:raju@carwash.ayvtn.mongodb.net/AdminService?retryWrites=true&w=majority
+  application:
+    name: Admin-Service
